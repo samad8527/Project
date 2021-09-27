@@ -1,0 +1,188 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+body{
+    margin: 0;
+    padding:0;
+}
+.navbar{
+    margin:0;
+    height:20vh;
+    background-color:#A1D1E0;
+}
+.mainNav{
+    height: 100px;
+    display:flex;
+    width:100vw;
+    position: absolute;
+    top:7%;
+    right:0;
+    left:0;
+    justify-content: center;
+    align-items: center;
+}
+.account>img{
+    height:35px;
+    width:35px;
+    flex:1;
+    border-radius:100% ;
+}
+.websiteName{
+    position: absolute;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left:4%;
+    height:100%;
+
+}
+#search{
+    width:400px;
+    height:40px;
+    margin-right: 210px;
+   
+}
+.searchBox{
+   margin-right:150px;
+}
+.dp{
+ position: absolute;
+ right:30px;
+ display: flex;;
+ font-size:1.5rem;
+ justify-content: center;
+ align-items: center;
+}
+.btnn{
+    position:absolute;
+   font-size: 1.7rem;
+   right:18%;
+   width:120px;
+   padding:10px;
+   border-radius:40px;
+   background-color:whitesmoke;
+   cursor: pointer;
+}
+.fa-search{
+   /* /* width:100px; */
+   padding:10px; 
+}
+.cost{
+    display: flex;
+    flex-direction: column;
+    margin:40px 0 40px 10px;
+}
+.form-range{
+    width:100%;
+}
+#minimum,#maximum{
+    width:90px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+.conmin,.conmax{
+    display: inline-block;
+    margin:9px;
+}
+.colleges{
+    
+    display: flex;
+    flex-direction: column;
+    margin :40px 0  40px 0;
+   
+}
+.constraints{
+    height:100vh;
+    padding:10px;
+    width:25%;
+    border-right:2px solid gray;
+}
+h2{
+    text-align: center;
+}
+.c1,.c2,.c3{
+    margin:10px 10px 10px 5px;
+    font-size: 0.9rem;
+    justify-content: center;
+    align-items: center;
+}
+.c1{
+    display: flex;
+    
+}
+.c1>input{
+    margin-top: 2px;
+    height: 20px;
+    width:20px;
+ 
+}
+.c2>input{
+    margin-top: 2px;
+    height: 20px;
+    width:20px;
+ 
+}
+
+.c3>input{
+    margin-top: 2px;
+    height: 20px;
+    width:20px;
+ 
+}
+.c1>label{
+    
+    margin-left: 7px;
+}
+.c2>label{
+    margin-left: 7px;
+}
+.c3>label{
+  
+    margin-left: 7px;
+    margin-bottom: 8px;
+}
+.content{
+    display: flex;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+}
+.description{
+    background-color: whitesmoke;
+    margin: 10px;
+    display: flex;
+    width:900px;
+    
+}
+.info{
+    width:400px;
+    border-right:2px solid lightgray;
+}
+.description>img{
+    margin: 10px;
+    padding:10px;
+    height:200px;
+    width:200px
+}
+.info{
+    font-weight: bold;
+    padding:40px;
+    
+}
+.seller{
+    padding:40px;
+}
+h6{
+    margin:10px;
+}
+.tags{
+    padding:5px;
+    border:1px solid black;
+    border-radius:3px;
+    background-color: rgb(216, 208, 208);
+}
+
