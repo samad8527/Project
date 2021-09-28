@@ -3,43 +3,77 @@
   <head>
     <title>HTML Forms</title>
     <link rel="stylesheet" href="sell.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <section class="navbar">
-      <nav class="mainNav">
-        <button onclick="goBack()" class="backbutton"><i class="material-icons" style="font-size:40px;color: black">chevron_left</i></button>
-        <span class="websiteName">Clarket</span>
-        <!-- <div class="searchBox">
+    <div class="mainNav">
+      <button onclick="goBack()" class="backbutton">
+        <i class="material-icons" style="font-size: 40px; color: black"
+          >chevron_left</i>
+      </button>
+      <span class="websiteName">Clarket</span>
+    </div>
+    <!-- <div class="searchBox">
             <div class="input-group rounded">
               <span class="input-group-text border-0" id="search-addon">
                 <i class="fas fa-search"></i>
               </span>
             </div> -->
-      </nav>
-    </section>
     <div class="sellform">
       <form>
         <label for="title">Enter the Product Name and Brand </label>
-        <br/>
+        <br />
         <input type="text" id="title" name="title" required />
 
         <br /><br />
 
         <label for="description">Enter Product Description </label>
-        <br/>
+        <br />
         <input type="text" id="text" name="text" required />
 
         <br /><br />
 
         <label for="price">Enter the Price of the Product</label>
-        <br/>
+        <br />
         <input type="number" id="price" name="price" required />
 
-        <br/><br/>
+        <br /><br />
 
         <label>Select product type :</label>
-        <br/>
+        <br />
+        <input type="radio" name="type" value="Negotiable" id="option-1" />
+        <label for="option-1">Negotiable</label>
+        <input type="radio" name="age" value="Non negotiable" id="option-2" />
+        <label for="option-2">Non negotiable</label>
+
+        <br /><br />
+
+        <input type="submit" value="Submit the form" />
+      </form>
+      <form>
+        <label for="title">Enter the Product Name and Brand </label>
+        <br />
+        <input type="text" id="title" name="title" required />
+
+        <br /><br />
+
+        <label for="description">Enter Product Description </label>
+        <br />
+        <input type="text" id="text" name="text" required />
+
+        <br /><br />
+
+        <label for="price">Enter the Price of the Product</label>
+        <br />
+        <input type="number" id="price" name="price" required />
+
+        <br /><br />
+
+        <label>Select product type :</label>
+        <br />
         <input type="radio" name="type" value="Negotiable" id="option-1" />
         <label for="option-1">Negotiable</label>
         <input type="radio" name="age" value="Non negotiable" id="option-2" />
