@@ -230,14 +230,16 @@ h2{
     flex-direction: column;
 }
 .description{
+    border-radius: 6px;
     background-color: whitesmoke;
-    margin: 10px;
+    margin: 20px;
     display: flex;
-    width:900px;
+    width: 1050px;
+    height: min-content;
     
 }
 .info{
-    width:400px;
+    width:550px;
     border-right:2px solid lightgray;
 }
 .description>img{
@@ -254,13 +256,18 @@ h2{
 .seller{
     padding:40px;
 }
+
 h6{
     margin:10px;
 }
 .tags{
-    padding:5px;
-    border:1px solid black;
-    border-radius:3px;
+    font-size: 12px;
+    margin: 5px;
+    margin-top: 0px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius:15px;
     background-color: rgb(216, 208, 208);
 }
 
