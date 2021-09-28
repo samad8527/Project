@@ -8,7 +8,7 @@ body{
     position: fixed;
     width: 100%;
     top: 0px;
-    background-color: rgb(161,209,224,0.6);
+    background-color: rgb(161,209,224,1);
     overflow: hidden;
     margin: 0px 0px;
     padding-left: 20px;
@@ -22,13 +22,13 @@ body{
     border: none;
     position: absolute;
     left: 1%;
-    top: 2.8%;
+    top: 24%;
     cursor: pointer;
 }
 
 .sellform{
     position: absolute;
-    top: 5%;
+    top: 15%;
     margin-top: 20px;
     display: block;
 }
@@ -41,7 +41,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    left:7%;
+    left:6%;
     height:100%;
 }
 
@@ -56,34 +56,34 @@ input[type=text]{
     letter-spacing: 0.7px;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
-    width: 30%;
+    width: 350px;
     height: 35px;
     margin-top: 15px;
     margin-bottom: 25px;
     margin-left: 30px;
     border-radius: 4px;
-    border: 1px solid rgba(0, 0, 0, 0.7)
+    border: 1px solid rgba(0, 0, 0, 0.7);
 }
 
 input[type=text]:focus {
-    border: 2px solid rgba(0, 0, 0, 0.9)
+    border: 2px solid rgba(0, 0, 0, 0.9);
 }
 
 input[type=number]{
     letter-spacing: 0.7px;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
-    width: 25%;
+    width: 350px;
     height: 35px;
     margin-top: 15px;
     margin-bottom: 25px;
     margin-left: 30px;
     border-radius: 4px;
-    border: 1px solid rgba(0, 0, 0, 0.7)
+    border: 1px solid rgba(0, 0, 0, 0.7);
 }
 
 input[type=number]:focus {
-    border: 2px solid rgba(0, 0, 0, 0.9)
+    border: 2px solid rgba(0, 0, 0, 0.9);
 }
 
 input[type=radio]{
@@ -93,6 +93,19 @@ input[type=radio]{
     size: 45px;
 }
 
+textarea{
+    letter-spacing: 0.7px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    width: 350px;
+    height: 70px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
 input[type=submit]{
     font-size: 1.1rem;
     font-family: 'Open Sans', sans-serif;
@@ -100,11 +113,12 @@ input[type=submit]{
     left: 10%;
     height: 45px;
     width:160px;
-    padding:10px;
+    padding: 10px;
     border: none;
     border-radius:25px;
     box-shadow: none;
     margin-top: 20px;
+    margin-left: 30px;
     background-color: rgb(161,209,224,1);
     cursor: pointer;
 }
