@@ -1,3 +1,28 @@
+@font-face {
+    font-family: Roboto-Slab-Regular;
+    src: url(fonts/RobotoSlab-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Slab-Thin;
+    src: url(fonts/RobotoSlab-Thin.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Slab-Light;
+    src: url(fonts/RobotoSlab-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Slab-Medium;
+    src: url(fonts/RobotoSlab-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Slab-Black;
+    src: url(fonts/RobotoSlab-Black.ttf);
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -9,11 +34,11 @@ body{
 }
 .navbar{
     margin:0;
-    height:20vh;
-    background-color:#A1D1E0;
+    height:15vh;
+    background-color: rgb(161,209,224,0.6);
 }
 .mainNav{
-    height: 100px;
+    height: 80px;
     display:flex;
     width:100vw;
     position: absolute;
@@ -24,30 +49,23 @@ body{
     align-items: center;
 }
 .account>img{
-    height:35px;
-    width:35px;
+    height:25px;
+    width:25px;
     flex:1;
     border-radius:100% ;
 }
 .websiteName{
+    font-family: 'Open Sans', sans-serif;
     position: absolute;
-    font-size: 2.5rem;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    left:4%;
+    left:3%;
     height:100%;
 
 }
-#search{
-    width:400px;
-    height:40px;
-    margin-right: 210px;
-   
-}
-.searchBox{
-   margin-right:150px;
-}
+
 .dp{
  position: absolute;
  right:30px;
@@ -56,20 +74,72 @@ body{
  justify-content: center;
  align-items: center;
 }
+
+.user{
+    font-size: 15px;
+    padding-left: 7px;
+    padding-right: 10px;
+}
+
 .btnn{
     position:absolute;
-   font-size: 1.7rem;
-   right:18%;
-   width:120px;
-   padding:10px;
-   border-radius:40px;
-   background-color:whitesmoke;
-   cursor: pointer;
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.8px;
+    right:18%;
+    height: 45px;
+    width:105px;
+    padding:10px;
+    border: none;
+    border-radius:40px;
+    box-shadow: none;
+    background-color: rgb(161,209,224,1);
+    cursor: pointer;
 }
-.fa-search{
-   /* /* width:100px; */
-   padding:10px; 
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 0.4; /* Firefox */
 }
+
+.fa-search {
+    color: rgba(161,209,224,0.9);
+}
+
+form.example input[type=text] {
+    height: 31px;
+    width: 400px;
+    float: left;
+    padding: 2px;
+    border: 1px solid rgba(100,100,100,0.4);
+    margin-top: 0px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+form.example button {
+    padding-bottom: 2.5px;
+    float: right;
+    width: 33px;
+    height: 31px;
+    background: black;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .cost{
     display: flex;
     flex-direction: column;
@@ -95,13 +165,21 @@ body{
    
 }
 .constraints{
-    height:100vh;
-    padding:10px;
-    width:25%;
+    height:70vh;
+    width:20%;
     border-right:2px solid gray;
 }
+
+hr.filter{
+    border: 0.5px solid rgba(100,100,100,0.4);
+}
+
 h2{
-    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 0px;
 }
 .c1,.c2,.c3{
     margin:10px 10px 10px 5px;
