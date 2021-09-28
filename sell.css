@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding:0;
+}
+.navbar{
+    margin:0;
+    height:15vh;
+    background-color: rgb(161,209,224,0.6);
+}
+.mainNav{
+    height: 80px;
+    display:flex;
+    width:100vw;
+    position: absolute;
+    margin-top: 5px;
+    right:0;
+    left:0;
+    justify-content: center;
+    align-items: center;
+}
+
+.backbutton{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: 1%;
+    top: 22%;
+    cursor: pointer;
+}
+
+.sellform{
+    margin-top: 30px;
+}
+
+.websiteName{
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left:7%;
+    height:100%;
+}
+
+label{
+    padding: 15px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-family:'Open Sans', sans-serif;
+}
+
+input[type=text]{
+    letter-spacing: 0.7px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    width: 30%;
+    height: 35px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.7)
+}
+
+input[type=text]:focus {
+    border: 2px solid rgba(0, 0, 0, 0.9)
+}
+
+input[type=number]{
+    letter-spacing: 0.7px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    width: 25%;
+    height: 35px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.7)
+}
+
+input[type=number]:focus {
+    border: 2px solid rgba(0, 0, 0, 0.9)
+}
+
+input[type=radio]{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 2px;
+    size: 45px;
+}

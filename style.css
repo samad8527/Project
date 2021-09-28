@@ -97,6 +97,11 @@ body{
     cursor: pointer;
 }
 
+.sellbutton{
+    padding-top: 0px;
+    display: flex;
+}
+
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: black;
     opacity: 0.4; /* Firefox */
